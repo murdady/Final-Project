@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/71d3511d9a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
 
@@ -13,7 +14,8 @@
     <div class="container">
         <!-- HEADER -->
         <header>
-            <nav>
+            <i class="fa-solid fa-bars"></i>
+            <nav class="removenav">
                 <ul class="headernav">
                     <li><a class="navbut" href="index.html" class="button">Home</a></li>
                     <li><a class="navbut" href="artworks.html" class="button">Artworks</a></li>
@@ -21,8 +23,10 @@
                 </ul>
             </nav>
 
+            
+
            
-         <a class="logo" href="index.html">Earthly<span>Artistry</span></a>
+         <a class="logo headerlogo" href="index.html">Earthly<span class="logocolor">Artistry</span></a>
         
          <div class="cartdiv">
             <p class="signin">Sign In</p>
@@ -65,20 +69,22 @@
     <h3>Our Gallery</h3>
     <div class="upper">
       <img class="s3img" src="images/Rectangle 85.png" alt="Image 1">
-      <img class="s3img" src="images/Rectangle 93.png" alt="Image 2">
+      <img class="s3img heights3img" src="images/Rectangle 93.png" alt="Image 2">
     </div>
     <div class="lower">
-      <img class="s3img" src="images/Rectangle 91.png" alt="Image 3">
+      <img class="s3img phoneremoves3img" src="images/Rectangle 91.png" alt="Image 3">
       <img class="s3img" src="images/Rectangle 92.png" alt="Image 4">
-      <img class="s3img" src="images/Rectangle 90.png" alt="Image 5">
+      <img class="s3img removes3img" src="images/Rectangle 90.png" alt="Image 5">
     </div>
   </section>
 
   <!-- SECTION4 -->
   <section class="section4">
     <h4>Latest Products</h4>
+    <div class="divforarrows">
+        <img class="arrowclass" src="images/Frame 57.svg" alt="arrowleft">
     <div class="s4div">
-  <img class="arrowleft" src="images/Frame 57.svg" alt="arrowleft">
+  
   <figure class="s4item">
     <img class="s4img" src="images/Rectangle 94.png" alt="Image 1">
     <figcaption class="s4text">$48.57</figcaption>
@@ -91,12 +97,16 @@
     <img class="s4img" src="images/Rectangle 96.png" alt="Image 3">
     <figcaption class="s4text">$48.57</figcaption>
 </figure>
-<figure class="s4item">
+<figure class="s4item s4itemremove">
     <img class="s4img" src="images/Rectangle 97.png" alt="Image 4">
     <figcaption class="s4text">$48.57</figcaption>
 </figure>
-  <img class="arrowright" src="images/Frame 56.svg" alt="arrowright">
 </div>
+<img class="arrowclass" src="images/Frame 56.svg" alt="arrowright">
+
+
+</div>
+<button class="viewmore">View More</button>
 </section>
 
 <!-- SECTION5 -->
@@ -136,7 +146,7 @@
 
 </section>
 
-<!-- SECTION7 -->
+<!-- FOOTER -->
 
 <footer>
 
@@ -155,14 +165,14 @@
         </div>
     </div>
 
-    <a class="logo" href="index.html">Earthly<span>Artistry</span></a>
+    <a class="logo" href="index.html">Earthly<span class="logocolor">Artistry</span></a>
 
     <div class="contactusdiv">
         
-        <div class="contactdiv">
-            <p class="contact"><img src="images/Vector (2).svg" alt="">+123 45 67  89</p>
-            <p class="contact"><img src="images/Vector (1).svg" alt="">example@mail.com</p>
-            <p class="contact"><img src="images/Vector.svg" alt="">Rustaveli avenue, 30</p>
+        <div class="page1contactdiv">
+            <p class="contact"><img src="images/Vector (2).svg" alt=""><span class="hide-text">+123 45 67 89</span></p>
+            <p class="contact"><img src="images/Vector (1).svg" alt=""><span class="hide-text">example@mail.com</span></p>
+            <p class="contact"><img src="images/Vector.svg" alt=""><span class="hide-text">Rustaveli avenue, 30</span></p>
             
            
         </div>

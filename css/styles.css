@@ -19,9 +19,12 @@ header {
     top: 0;
     left: 50%;
     transform: translate(-50%);
+    z-index: 1;
 }
 
-
+.fa-bars {
+    display:none;
+}
 
 .headernav {
     display: flex;
@@ -54,7 +57,7 @@ header {
     line-height: normal;
 }
 
-span {
+.logocolor {
     color: #D5906E;
     font-family: Inter;
     font-size: 36px;
@@ -84,6 +87,7 @@ span {
     align-items: center;
     flex-direction: column;
     padding: 283px 584px 188px 585px;
+    
 }
 
 
@@ -180,6 +184,7 @@ h3 {
     font-weight: 700;
     line-height: normal;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 
@@ -194,6 +199,7 @@ h3 {
     align-items: center;
     gap: 40px;
     padding: 160px 172px;
+    
 
 }
 
@@ -204,32 +210,26 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    
 }
 
 .s4div {
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 60px;
+    
 }
 
-.arrowright {
-    margin-left: -36px;
+.divforarrows {
+    display: flex;
+    gap: 24px;
+    
+    
 }
 
-.arrowleft {
-    margin-right: -36px;
-}
-
-
-.s4img {
-    width: 100%;
-}
 
 .s4item {
     position: relative;
-    max-width: 100%;
-    width: 20%;
+    
 }
 
 .s4text {
@@ -238,7 +238,6 @@ h4 {
     left: 0;
     background-color: rgba(0, 0, 0, 0.7);
     color: rgb(0, 0, 0);
-    padding: 5px;
     font-size: 14px;
     margin: 16px;
     border-radius: 20px;
@@ -251,6 +250,17 @@ h4 {
     line-height: normal;
     padding: 15px 17px 14px 17px;
 
+}
+
+.viewmore {
+    display: inline-flex;
+padding: 15px 32px 14px 31px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background: #B53B1B;
+color: white;
+margin-top: 32px;
 }
 
 /* SECTION5 */
@@ -298,7 +308,7 @@ h5 {
     border: 1px solid #FFF;
     background-color: transparent;
     padding: 19px;
-    width: 482px;
+    width: 331px;
     color: white;
 }
 
@@ -348,6 +358,8 @@ h1 {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 24px;
+    /* width: 342px; */
+    
 }
 
 .divtext {
@@ -424,7 +436,7 @@ footer {
     color: white;
 }
 
-.contactdiv {
+.page1contactdiv {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -515,7 +527,7 @@ footer {
     border: 2px solid #402101;
     background-color: transparent;
     padding: 19px;
-    color: white;
+    color: black;
 }
 
 .categorydiv {
@@ -589,14 +601,173 @@ footer {
 
 /* CONTACTS */
 
+/* SECTION1 */
 .section1page3 {
     background-image: url(..//images/Rectangle\ 108.png);
     background-size: cover;
     background-position: center;
     height: 720px;
+    padding: 208px 240px;
+
+
+}
+
+.nameinputdiv {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+}
+
+.page3form {
+    display: flex;
     flex-direction: column;
-    padding: 283px 584px 188px 585px;
+    gap: 36px;
+    width: 500px;
+    padding: 24px 30px;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(64, 33, 1, 0.73);
+    box-shadow: -1px -1px 4px 0px #FFF;
+
+
+}
+
+.getintouch {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+.nameinput {
+    background-color: transparent;
+    padding: 11px 116px 12px 8px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    width: 190px;
+    margin-right: 60px;
+    color: white;
+}
+
+#name::placeholder {
+    color: rgba(255, 255, 255, 0.76)
+}
+
+
+
+.emailinput {
+    background-color: transparent;
+    padding: 12px 8px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    width: 190px;
+    color: white;
+}
+
+#email::placeholder {
+    color: rgba(255, 255, 255, 0.76)
+}
+
+
+
+
+.textareainput {
+    background-color: transparent;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+    width: 440px;
+    height: 96px;
+    color: white;
+}
+
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.76);
+}
+
+
+
+
+.page3button {
+
+    padding: 19px 42px 18px 43px;
+    border-radius: 10px;
+    background: #D5906E;
+    color: white;
+    width: 147px;
+
+}
+
+
+
+
+
+/* SECTION2 */
+.section2page3 {
+    padding: 160px 365px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.mapdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+
+
+
+}
+
+.backgrounddiv {
+    background-color: rgba(213, 144, 110, 0.30);
+    text-align: center;
+
+
+}
+
+.contactus {
+    color: #B53B1B;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.contacttext {
+    color: #623932;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+iframe {
+    width: 815px;
+    height: 320px;
+}
+
+.contactdiv {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 7px;
+    
+
+}
+
+.middlemargin1 {
+    margin-top: 32px;
+}
+
+.middlemargin2 {
+    margin-bottom: 32px;
 }

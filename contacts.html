@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
+    <script src="https://kit.fontawesome.com/71d3511d9a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
 
 </head>
+
 <body>
     <div class="container">
         <!-- HEADER -->
         <header>
-            <nav>
+            <i class="fa-solid fa-bars"></i>
+            <nav class="removenav">
                 <ul class="headernav">
                     <li><a class="navbut" href="index.html" class="button">Home</a></li>
                     <li><a class="navbut" href="artworks.html" class="button">Artworks</a></li>
@@ -21,8 +25,10 @@
                 </ul>
             </nav>
 
+            
+
            
-         <a class="logo" href="index.html">Earthly<span>Artistry</span></a>
+         <a class="logo headerlogo" href="index.html">Earthly<span class="logocolor">Artistry</span></a>
         
          <div class="cartdiv">
             <p class="signin">Sign In</p>
@@ -34,13 +40,63 @@
         <section class="section1page3">
 
 
-       
-</section>
+
+            <form class="page3form ">
+                <h1 class="getintouch">Get In Touch</h1>
+                <div class="nameinputdiv">
+                    <label for="name"></label>
+                    <input class="nameinput" type="text" id="name" name="name" placeholder="Name">
+
+
+                    <label for="email"></label>
+                    <input class="emailinput" type="email" id="email" name="email" placeholder="Email">
+                </div>
+
+                <label class="title" for="message"></label>
+                <textarea class="textareainput" id="message" name="message" rows="4" cols="50" placeholder="Message"
+                    style="resize: none;"></textarea>
+
+                <button class="page3button" type="submit">SUBMIT</button>
+
+            </form>
+
+        </section>
+
+        <section class="section2page3">
+
+            
+            <div class="backgrounddiv">
+                <h1 class="contactitile">Contact</h1>
+
+                <div class="mapdiv">
+
+                    <div class="contactdiv">
+                        <p class="contactus">Call Us</p>
+                        <p class="contacttext">+123 45 67 89</p>
+
+                        <p class="contactus middlemargin1">Email Us</p>
+                        <p class="contacttext middlemargin2">example@mail.com</p>
+
+                        <p class="contactus">Address</p>
+                        <p class="contacttext">Rustaveli avenue, 30</p>
+
+                    </div>
+
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.911230291333!2d44.794574600000004!3d41.700852000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cdd1af7ece7%3A0xa0647da208fff81e!2zMzAg4YOo4YOd4YOX4YOQIOGDoOGDo-GDoeGDl-GDkOGDleGDlOGDmuGDmOGDoSDhg5Lhg5Dhg5vhg5bhg5jhg6Dhg5gsIOGDl-GDkeGDmOGDmuGDmOGDoeGDmA!5e0!3m2!1ska!2sge!4v1694984295852!5m2!1ska!2sge"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+
+        </section>
 
 
 
 
-<!-- FOOTER -->
+       <!-- FOOTER -->
 
 <footer>
 
@@ -59,14 +115,14 @@
         </div>
     </div>
 
-    <a class="logo" href="index.html">Earthly<span>Artistry</span></a>
+    <a class="logo" href="index.html">Earthly<span class="logocolor">Artistry</span></a>
 
     <div class="contactusdiv">
         
-        <div class="contactdiv">
-            <p class="contact"><img src="images/Vector (2).svg" alt="">+123 45 67  89</p>
-            <p class="contact"><img src="images/Vector (1).svg" alt="">example@mail.com</p>
-            <p class="contact"><img src="images/Vector.svg" alt="">Rustaveli avenue, 30</p>
+        <div class="page1contactdiv">
+            <p class="contact"><img src="images/Vector (2).svg" alt=""><span class="hide-text">+123 45 67 89</span></p>
+            <p class="contact"><img src="images/Vector (1).svg" alt=""><span class="hide-text">example@mail.com</span></p>
+            <p class="contact"><img src="images/Vector.svg" alt=""><span class="hide-text">Rustaveli avenue, 30</span></p>
             
            
         </div>
@@ -78,7 +134,7 @@
 
 
 
-
     </div>
 </body>
+
 </html>
