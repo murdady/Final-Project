@@ -23,7 +23,7 @@ header {
 }
 
 .fa-bars {
-    display:none;
+    display: none;
 }
 
 .headernav {
@@ -76,7 +76,6 @@ header {
 }
 
 /* SECTION1 */
-
 .section1 {
     background-image: url(..//images/Rectangle\ 106.png);
     background-size: cover;
@@ -87,10 +86,7 @@ header {
     align-items: center;
     flex-direction: column;
     padding: 283px 584px 188px 585px;
-    
 }
-
-
 
 h2 {
     width: 485px;
@@ -101,8 +97,6 @@ h2 {
     font-weight: 700;
     line-height: normal;
 }
-
-
 
 .sectiontext {
     width: 751px;
@@ -131,7 +125,6 @@ h2 {
     border: 2px solid #D5906E;
 }
 
-
 /* SECTION2 */
 .section2 {
     display: flex;
@@ -151,7 +144,6 @@ h2 {
     margin-top: 24px;
 }
 
-
 /* SECTION3 */
 .section3 {
     display: flex;
@@ -161,19 +153,16 @@ h2 {
     gap: 60px;
     background-color: #402101;
     padding: 96px 365px;
-
 }
 
 .upper {
     display: flex;
     gap: 60px;
-
 }
 
 .lower {
     display: flex;
     gap: 60px;
-
 }
 
 h3 {
@@ -187,11 +176,7 @@ h3 {
     margin-bottom: 40px;
 }
 
-
-
-
 /* SECTION4 */
-
 .section4 {
     display: flex;
     flex-direction: column;
@@ -199,8 +184,6 @@ h3 {
     align-items: center;
     gap: 40px;
     padding: 160px 172px;
-    
-
 }
 
 h4 {
@@ -210,26 +193,20 @@ h4 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    
 }
 
 .s4div {
     display: flex;
     gap: 60px;
-    
 }
 
 .divforarrows {
     display: flex;
     gap: 24px;
-    
-    
 }
-
 
 .s4item {
     position: relative;
-    
 }
 
 .s4text {
@@ -249,28 +226,27 @@ h4 {
     font-weight: 400;
     line-height: normal;
     padding: 15px 17px 14px 17px;
-
 }
 
 .viewmore {
     display: inline-flex;
-padding: 15px 32px 14px 31px;
-justify-content: center;
-align-items: center;
-border-radius: 10px;
-background: #B53B1B;
-color: white;
-margin-top: 32px;
+    padding: 15px 32px 14px 31px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #B53B1B;
+    color: white;
+    margin-top: 32px;
 }
 
 /* SECTION5 */
 .section5 {
-
     background-image: url(..//images/Rectangle\ 98.png);
     background-size: cover;
     background-position: center;
     height: 480px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 160px;
@@ -285,11 +261,7 @@ h5 {
     line-height: normal;
     margin-bottom: 56px;
     text-align: center;
-
 }
-
-
-
 
 .submitbutton {
     height: 56px;
@@ -300,7 +272,6 @@ h5 {
     margin-left: -10px;
     width: 151px;
 }
-
 
 .mailinput {
     height: 56px;
@@ -325,7 +296,6 @@ h5 {
     padding: 161px 242px;
 }
 
-
 h1 {
     color: #402101;
     font-family: Inter;
@@ -336,13 +306,11 @@ h1 {
 }
 
 .s6divs {
-
     border-radius: 8px;
     background: rgba(213, 144, 110, 0.30);
     margin-top: 40px;
     margin-bottom: 112px;
     width: 30%;
-
 }
 
 .threedivs {
@@ -358,8 +326,6 @@ h1 {
     font-weight: 400;
     line-height: normal;
     margin-bottom: 24px;
-    /* width: 342px; */
-    
 }
 
 .divtext {
@@ -390,7 +356,6 @@ h1 {
     background: #B53B1B;
     color: white;
 }
-
 
 /* FOOTER */
 footer {
@@ -442,16 +407,14 @@ footer {
     gap: 24px;
 }
 
-
-
 /* ARTWORKS */
 
-/* SECTION1 */
+/* SECTION1PAGE2 */
 .section1page2 {
     background-image: url(..//images/Rectangle\ 107.png);
     background-size: cover;
     background-position: center;
-    height: 720px;
+    height: 560px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -463,32 +426,28 @@ footer {
     margin-bottom: 72px;
 }
 
-
-
-/* SECTION2 */
+/* SECTION2PAGE2 */
 .section2page2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 161px 240px;
-
 }
 
-
-
+.arrowdiv {
+    display: flex;
+}
 
 .searchdiv {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .searchform {
     display: flex;
-    width: 100%;
-    max-width: 940px;
+
 }
 
 .category {
@@ -506,8 +465,6 @@ footer {
     margin-right: 59px;
 }
 
-
-
 .searchbutton {
     height: 56px;
     justify-content: center;
@@ -518,7 +475,6 @@ footer {
     width: 251px;
     color: white;
 }
-
 
 .searchinput {
     width: 690px;
@@ -537,7 +493,6 @@ footer {
     margin-top: 61px;
 }
 
-
 .sortdiv {
     display: flex;
     gap: 40px;
@@ -551,7 +506,6 @@ footer {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-
 }
 
 .sort {
@@ -563,8 +517,6 @@ footer {
     line-height: normal;
 }
 
-
-
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -572,10 +524,12 @@ footer {
     margin-top: 94px;
 }
 
-.price {
+.pricediv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 28px;
 }
-
 
 .pagenumbers {
     display: flex;
@@ -598,18 +552,15 @@ footer {
     cursor: pointer;
 }
 
-
 /* CONTACTS */
 
-/* SECTION1 */
+/* SECTION1PAGE3 */
 .section1page3 {
     background-image: url(..//images/Rectangle\ 108.png);
     background-size: cover;
     background-position: center;
     height: 720px;
     padding: 208px 240px;
-
-
 }
 
 .nameinputdiv {
@@ -628,7 +579,6 @@ footer {
     background: rgba(64, 33, 1, 0.73);
     box-shadow: -1px -1px 4px 0px #FFF;
 
-
 }
 
 .getintouch {
@@ -640,11 +590,9 @@ footer {
     line-height: normal;
 }
 
-
-
 .nameinput {
     background-color: transparent;
-    padding: 11px 116px 12px 8px;
+    padding: 11px 8px;
     border-radius: 10px;
     border: 2px solid #FFF;
     width: 190px;
@@ -655,8 +603,6 @@ footer {
 #name::placeholder {
     color: rgba(255, 255, 255, 0.76)
 }
-
-
 
 .emailinput {
     background-color: transparent;
@@ -670,9 +616,6 @@ footer {
 #email::placeholder {
     color: rgba(255, 255, 255, 0.76)
 }
-
-
-
 
 .textareainput {
     background-color: transparent;
@@ -688,9 +631,6 @@ textarea::placeholder {
     color: rgba(255, 255, 255, 0.76);
 }
 
-
-
-
 .page3button {
 
     padding: 19px 42px 18px 43px;
@@ -698,38 +638,24 @@ textarea::placeholder {
     background: #D5906E;
     color: white;
     width: 147px;
-
 }
 
-
-
-
-
-/* SECTION2 */
+/* SECTION2PAGE3 */
 .section2page3 {
     padding: 160px 365px;
     display: flex;
     flex-direction: column;
-
-
-
 }
 
 .mapdiv {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     margin-top: 40px;
-
-
-
 }
 
 .backgrounddiv {
     background-color: rgba(213, 144, 110, 0.30);
     text-align: center;
-
-
 }
 
 .contactus {
@@ -760,8 +686,6 @@ iframe {
     flex-direction: column;
     text-align: start;
     gap: 7px;
-    
-
 }
 
 .middlemargin1 {
