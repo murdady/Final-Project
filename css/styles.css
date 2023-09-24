@@ -649,6 +649,11 @@ footer {
     width: 251px;
     color: white;
     cursor: pointer;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .searchbutton:hover {
