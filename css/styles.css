@@ -51,12 +51,10 @@ header {
 
 .cart {
     transition: transform 0.3s ease-in-out;
-    /* Add a smooth transition effect */
 }
 
 .cart:hover {
     animation: jump 1s ease-in-out infinite;
-    /* Use the 'jump' animation on hover */
 }
 
 @keyframes jump {
@@ -64,18 +62,15 @@ header {
     0%,
     100% {
         transform: translateY(0);
-        /* Initial and final positions (no vertical movement) */
     }
 
     25%,
     75% {
         transform: translateY(-10px);
-        /* Jump up by 20px during these keyframes */
     }
 
     50% {
         transform: translateY(0);
-        /* Return to the initial position */
     }
 }
 
