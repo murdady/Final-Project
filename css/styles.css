@@ -22,9 +22,9 @@ header {
     z-index: 1;
 }
 
-.fa-bars {
+.menuremoveandshow {
     display: none;
-}
+  } 
 
 .headernav {
     display: flex;
@@ -695,3 +695,6 @@ iframe {
 .middlemargin2 {
     margin-bottom: 32px;
 }
+
+
+
