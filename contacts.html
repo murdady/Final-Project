@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/Inter-regular.css">
+    <link rel="stylesheet" href="css/Rubik-Regular.css">
     <script src="https://kit.fontawesome.com/71d3511d9a.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -93,13 +95,13 @@
 
                     <div class="contactdiv">
                         <p class="contactus">Call Us</p>
-                        <p class="contacttext">+123 45 67 89</p>
+                        <a href="tel:+123456789"><p class="contacttext">+123 45 67 89</p></a>
 
                         <p class="contactus middlemargin1">Email Us</p>
-                        <p class="contacttext middlemargin2">example@mail.com</p>
+                        <a href="mailto:example@mail.com"><p class="contacttext middlemargin2">example@mail.com</p></a>
 
                         <p class="contactus">Address</p>
-                        <p class="contacttext">Rustaveli avenue, 30</p>
+                        <a href="https://www.google.com/maps?q=Rustaveli+avenue,30" target="_blank"><p class="contacttext">Rustaveli avenue, 30</p></a>
                     </div>
 
                     <iframe
@@ -122,30 +124,52 @@
 
                 <nav>
                     <ul class="footernav">
-                        <li>Help Centre</li>
-                        <li>Privacy Settings</li>
+                        <li class="helpcenter">Help Centre</li>
+                        <li class="privacy">Privacy Settings</li>
                     </ul>
                 </nav>
 
                 <div class="socialicons">
-                    <img src="images/logos_youtube.svg" alt="youtube">
-                    <img src="images/skill-icons_instagram.svg" alt="instagram">
-                    <img src="images/logos_facebook.svg" alt="facebook">
+                    <a class="socialzoom" href="https://www.youtube.com" target="_blank">
+                        <img src="images/logos_youtube.svg" alt="youtube">
+                    </a>
+                    <a class="socialzoom" href="https://www.instagram.com" target="_blank">
+                        <img src="images/skill-icons_instagram.svg" alt="instagram">
+                    </a>
+                    <a class="socialzoom" href="https://www.facebook.com" target="_blank">
+                        <img src="images/logos_facebook.svg" alt="facebook">
+                    </a>
                 </div>
 
             </div>
 
-            <a class="logo" href="index.html">Earthly<span class="logocolor">Artistry</span></a>
+            <a class="logo footerlogo" href="index.html">Earthly<span class="logocolor">Artistry</span></a>
 
             <div class="contactusdiv">
 
                 <div class="page1contactdiv">
-                    <p class="contact"><img src="images/Vector (2).svg" alt=""><span class="hide-text">+123 45 67
-                            89</span></p>
-                    <p class="contact"><img src="images/Vector (1).svg" alt=""><span
-                            class="hide-text">example@mail.com</span></p>
-                    <p class="contact"><img src="images/Vector.svg" alt=""><span class="hide-text">Rustaveli avenue,
-                            30</span></p>
+                    
+                    <p class="contact">
+                        <a class="icontextgap" href="tel:+123456789">
+                            <img class="contactzoom" src="images/Vector (2).svg" alt="">
+                            <span class="hide-text">+123 45 67 89</span>
+                        </a>
+                    </p>
+
+                    <p class="contact">
+                        <a class="icontextgap" href="mailto:example@mail.com">
+                            <img class="contactzoom" src="images/Vector (1).svg" alt="">
+                            <span class="hide-text">example@mail.com</span>
+                        </a>
+                    </p>
+
+                    <p class="contact">
+                        <a class="icontextgap" href="https://www.google.com/maps?q=Rustaveli+avenue,30" target="_blank">
+                            <img class="contactzoom" src="images/Vector.svg" alt="">
+                            <span class="hide-text">Rustaveli avenue, 30</span>
+                        </a>
+                    </p>
+
                 </div>
 
             </div>
