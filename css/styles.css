@@ -84,9 +84,12 @@ header {
 }
 
 .logo:hover,
-.signin:hover,
-.navbut:hover {
+.signin:hover {
     text-shadow: 0 0 10px #ffffff, 0 0 20px #000000, 0 0 30px rgba(255, 255, 255, 0.26), 0 0px 40px #b85c1f, 0 0 50px #D5906E;
+}
+
+.navbut:hover {
+    color: #D5906E;
 }
 
 .logocolor {
